@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ranking Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <div class="what" style="display: flex; gap: 10px; margin: auto; margin-top: 10px ;  margin-bottom: 10px;" >
+            <div  id="rankingmenu"onclick="showRankingMenu()" >RANKINGMENU</div>
+            <div id="playinghistory" onclick="showPlayingHistory()" >ประวัติการเล่น</div>
+        </div>
+    </header>
+    <div id="container">
+        <div class="ranking-tag">
+            <div class="grid-tag">
+                <div class="ctn-ranking-tag">
+                    <div class="ranking-number"><p>2</p></div>
+                    <div class="ranking-circle-2"></div>  
+                    <div class="ranking-score"><p style="
+                    background-color: #feb603;
+                    margin: 0 1em;
+                    border-radius: 100px;
+                    margin-top: -10px ;">11820</p>
+                    </div>    
+                </div>
+                <div class="ctn-ranking-tag">
+                    <div class="ranking-number"><p>1</p></div>
+                    <div class="ranking-circle-1"></div>  
+                    <div class="ranking-score"><p style="
+                        background-color: #feb603;
+                        margin: 0 1em;
+                        padding: 5px ;
+                        margin-top: -10px ;
+                        border-radius: 100px;">12220</p>
+                    </div>
+                </div>
+                <div class="ctn-ranking-tag">
+                    <div class="ranking-number"><p>3</p></div>
+                    <div class="ranking-circle-3"></div> 
+                    <div class="ranking-score"><p style="
+                        background-color: #feb603;
+                        margin: 0 1em;
+                        margin-top: -10px ;
+                        border-radius: 100px;">11670</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <div class="guide">
+                <div class="ranking-guide">
+                    <p>อันดับ</p>
+                </div>
+                <div class="name-guide">
+                    <p>นาม</p>
+                </div>
+                <div class="score-guide">
+                    <p>คะแนน</p>
+                </div>
+            </div>
+            <div class="normal-list">
+                <div class="normal-list-content">
+                    <div class="number"><p>1</p></div>
+                    <div class="name"><p>เสือนักดาบผุ้ปราบเปรือง</p></div>
+                    <div class="score" style=" background-image: url(https://cdn.discordapp.com/attachments/1190963071590608956/1232584171742826537/rank1.png?ex=6629fcf6&is=6628ab76&hm=1d755f941ea5fe2f4518a9cfe30188be614603a825274c40dfe2de016ac2fda8&); background-size: 90%; background-repeat: no-repeat;"></div>
+                </div>
+                <div class="normal-list-content">
+                    <div class="number"><p>2</p></div>
+                    <div class="name"><p>เสือนักดาบผุ้ปราบเปรือง</p></div>
+                    <div class="score" style=" background-image: url(https://cdn.discordapp.com/attachments/1190963071590608956/1232585774374064198/Untitled-2.png?ex=6629fe74&is=6628acf4&hm=395bb6622b8d1d9987c5733d36c75d206a6b717a67017968f2ddbe4e71d0d09d&); background-size: 90%; background-repeat: no-repeat;"></div>
+                </div>
+                <div class="normal-list-content">
+                    <div class="number"><p>3</p></div>
+                    <div class="name"><p>เสือนักดาบผุ้ปราบเปรือง</p></div>
+                    <div class="score" style=" background-image: url(https://cdn.discordapp.com/attachments/1190963071590608956/1232585774063550547/rank3.png?ex=6629fe74&is=6628acf4&hm=dbe20a9a99102c4e17e43e8c4a440597ecb0d180a45e286819f0b62bff52b4f0&); background-size: 90%; background-repeat: no-repeat;"></div>
+                </div>
+                <div class="normal-list-content">
+                    <div class="number"><p>4</p></div>
+                    <div class="name"><p>เสือนักดาบผุ้ปราบเปรือง</p></div>
+                    <div class="score">11300</div>
+                </div>
+                <div class="normal-list-content">
+                    <div class="number"><p>5</p></div>
+                    <div class="name"><p>สิงโตทะเลยักา์แห่งภูผา</p></div>
+                    <div class="score">11244</div>
+                </div>
+                <div class="normal-list-content">
+                    <div class="number"><p>6</p></div>
+                    <div class="name"><p>ฮิปโปสาวแห่งผงไพร</p></div>
+                    <div class="score">11122</div>
+                </div>
+                <div class="normal-list-content">
+                    <div class="number"><p>7</p></div>
+                    <div class="name"><p>เสือสมิงเจ้าป่าใบโอม</p></div>
+                    <div class="score">11020</div>
+                </div>
+                <div class="normal-list-content">
+                    <div class="number"><p>8</p></div>
+                    <div class="name"><p>นกแก้วสาวหิมาลัย</p></div>
+                    <div class="score">1890</div>
+                </div>
+                <div class="normal-list-content">
+                    <div class="number"><p>9</p></div>
+                    <div class="name"><p>ฟินิกส์ยักษ์ผุ้หลบไหลในหิมะ</p></div>
+                    <div class="score">1793</div>
+                </div>
+                <div class="normal-list-content">
+                    <div class="number"><p>10</p></div>
+                    <div class="name"><p>มังกรยักษ์หิมาลัย</p></div>
+                    <div class="score">1600</div>
+                </div> 
+                <hr style="background-color: black; height: 2px; margin: 3%;"> 
+                <div class="score-myself">
+                    <div class="normal-list-content">
+                        <div class="number"><p>1</p></div>
+                        <div class="name"><p>เพื่อรักนักผจญภัยv1</p></div>
+                        <div class="score">12220</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="player_history">
+        <div class="player-history-score">
+            <div class="content-history">
+                <p>เกมหีบสมบัติ</p>
+                <div class="history-score">
+                    <p>1000</p>
+                    &nbsp;<p>คะแนน</p>
+                </div>
+            </div><hr>
+            <div class="content-history">
+                <p>เกมทายคำ</p>
+                <div class="history-score">
+                    <p>1333</p>
+                    &nbsp;<p>คะแนน</p>
+                </div>
+            </div><hr>
+            <div class="content-history">
+                <p>เกมตาดีมีคู่</p>
+                <div class="history-score">
+                    <p>133</p>
+                    &nbsp;<p>คะแนน</p>
+                </div>
+            </div><hr>
+            <div class="content-history">
+                <p>เกมเวกเตอร์</p>
+                <div class="history-score">
+                    <p>113</p>
+                    &nbsp;<p>คะแนน</p>
+                </div>
+            </div><hr>
+        </div>
+        <div class="player-history-score">
+            <div class="content-history">
+                <p>คะแนนรวม</p>
+                <div class="history-score">
+                    <p>2579</p>
+                    &nbsp;<p>คะแนน</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

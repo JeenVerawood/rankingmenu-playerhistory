@@ -1,0 +1,211 @@
+
+@media (max-width: 500px){
+    @font-face {
+        src: url(fonts/KhaoNiawThin.ttf);
+        font-family: 'KhaoNiawThin', sans-serif;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        font-weight: 700;
+        font-style: normal;
+    }
+    body {
+        font-family: 'KhaoNiawThin', sans-serif;
+        max-width: 80vh;
+        margin: auto;
+        background-color: #ce7d26;
+        font-size: 1rem;
+    }
+    header{
+        width: 100%;
+        height: auto;
+        background-color: #97530a;
+        display: flex;
+        align-content: center;
+        gap: 5px ;
+    }
+    #container{
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgb(192, 57, 4); */
+        display: block;
+    }
+    .ranking-tag{
+        width: 100%;
+        background-color: #ce7d26;
+        padding: .3em .3em;
+        color: #000;    
+    }
+    .grid-tag{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        align-items: right;
+        margin: 1em .3em;
+        position: relative;
+        gap: 2px;
+        /* grid-gap: 0% 0.5%; */ 
+        /* grid-auto-rows: 1fr;
+        /* padding: 0.1% 1%; */
+    }
+    .rank p {
+        font-size: 1rem;
+    }
+    .ctn-ranking-tag{
+        width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        text-align: center;
+        border-radius: 20px;
+        padding: 1em 0;
+        text-shadow: -1px 1px 3px #feb603;
+        
+    }
+    .ranking-number{
+        font-size: 1.3rem;
+    }
+    .ranking-name{
+        margin:.2em 0;
+    }
+    .ranking-circle-1{
+        width: 6em;
+        height: 6em;
+        border-radius: 50%;
+        margin: auto;
+        border: .3em solid #feb603;
+        background-size: 100%;
+        margin-top:.1em ;
+        background-image: url(https://cdn.discordapp.com/attachments/1093404806095323136/1161383994550665226/image.png?ex=662b56e1&is=662a0561&hm=3cc37ceb250e6cd98a9c4eed0515b4ad34c4ed28dd4b324d496cd61398bf5882&);
+    }
+    .ranking-circle-2{
+        width: 6em;
+        height: 6em;
+        border-radius: 50%;
+        margin: auto;
+        border: .3em solid #feb603;
+        background-size: 100%;
+        margin-top:.1em ;
+        background-image: url(https://cdn.discordapp.com/attachments/1093584475541225524/1217099506454102067/jpx_party_animals.png?ex=662ba9be&is=662a583e&hm=d7970aca6e56b11ad3c926e54c3f067b04d5dc24700f52b7aaef05acb5b349ca&);
+    }
+    .ranking-circle-3{
+        width: 6em;
+        height: 6em;
+        border-radius: 50%;
+        margin: auto;
+        border: .3em solid #feb603;
+        background-size: 100%;
+        margin-top:.1em ;
+        background-image: url(https://cdn.discordapp.com/attachments/1093404806095323136/1185273553684271194/jpx_store.png?ex=662b3cc4&is=6629eb44&hm=df160f192aa542c9b93ea71a2428c565c0fe497f2efca1e73cc0216df6780efb&);
+    }
+    .list{
+        width: 100%;
+        height:auto;
+        background-color: #e2892b;
+        background-size: 100%;
+        padding: 5px 10px ;
+        color: #ededed;
+    }
+    .guide{
+        display: flex;
+        color: #000;
+        text-align: center;
+        margin: 0 10px ;
+        margin-bottom: 3px;
+        color: #ededed;
+        text-shadow: -1px 1px 0px rgba(27, 16, 4, 1);
+    }
+    .ranking-guide{
+        left: 20%;
+        height: auto;
+    }
+    .name-guide{
+        left: 20%;
+        position: absolute;
+        height: auto;
+    }
+    .score-guide{
+        left: 82%;
+        position: absolute ; 
+        height: auto;
+    }
+    .normal-list{
+        height: auto;
+        border-radius: 15px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #feb603;
+    }
+    .normal-list-content{
+        display: flex;
+        margin: 5px 0;
+        color: #000;
+        background-color: #ededed;
+        border-radius: 10px ;
+    }
+    .number{
+        width: 10%;
+        height: auto;
+        text-align: center;
+        padding: 3% 0;
+    }
+    .name{
+        width: 75%;
+        height: auto;
+        padding: 3% 2%;
+    }
+    .score{
+        width: 15%;
+        height: auto;
+        text-align: center;
+        padding: 3% 0;
+    }
+    .history{
+        width: 100%;
+        height: auto;
+        background-color: #97530a;
+        z-index: 9999989999;
+        margin: auto;
+    }
+
+    /* ########## */
+
+    #rankingmenu {
+        background-color: #feb603;
+        border-radius: 10px;
+        padding: 10px 40px;
+    }
+    #playinghistory {
+        background-color: #feb603;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+    #player_history{
+        display: none;
+    }
+    .player-history-score{
+        border-radius: 10px;
+        margin: 15px 20px ;
+        padding: 10px 20px ;
+        background-color: #ededed;
+    }
+    .content-history{
+        justify-content: space-between;
+        display: flex;
+    }
+    .history-score{
+        display: flex;
+    }
+}  
+
+
+
+
+
+
+
+
+
+
